@@ -1,0 +1,5 @@
+CREATE TABLE status (
+  id VARCHAR(5) NOT NULL,
+  name VARCHAR(255) DEFAULT "",
+  PRIMARY KEY (id)
+);

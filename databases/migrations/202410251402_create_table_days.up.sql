@@ -1,0 +1,6 @@
+CREATE TABLE days (
+  id VARCHAR(5) NOT NULL,
+  name VARCHAR(255) DEFAULT "",
+  name_en VARCHAR(255) DEFAULT "",
+  PRIMARY KEY (id)
+);
